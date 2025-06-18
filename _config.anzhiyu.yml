@@ -427,7 +427,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2025
+    since: 2024
   custom_text:
   runtime:
     enable: true
