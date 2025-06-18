@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "94e5c8311c315cdc",
+        "id": "657864108453272e",
         "type": "tabs",
         "children": [
           {
-            "id": "694c93ee1501ffe5",
+            "id": "8394f9bfc77a11e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/我的ob插件.md",
+                "file": "HOME.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我的ob插件"
+              "title": "HOME"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/我的ob插件.md",
+                "file": "HOME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "我的ob插件 的反向链接列表"
+              "title": "HOME 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/我的ob插件.md",
+                "file": "HOME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "我的ob插件 的出链列表"
+              "title": "HOME 的出链列表"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/我的ob插件.md",
+                "file": "HOME.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "我的ob插件 的大纲"
+              "title": "HOME 的大纲"
             }
           }
         ]
@@ -170,11 +170,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "694c93ee1501ffe5",
+  "active": "8394f9bfc77a11e7",
   "lastOpenFiles": [
-    "source/_posts/hello-world.md",
-    "source/_posts/我的ob插件.md",
+    "().md",
     "HOME.md",
+    "source/_posts/我的ob插件.md",
+    "public/2025/06/17/我的ob插件/index.html",
+    "public/2025/06/17/我的ob插件",
+    "public/2025/06/17",
+    "public/2025/06",
+    "public/archives/2025/06/index.html",
+    "public/archives/2025/06",
+    "source/_posts/hello-world.md",
     "themes/anzhiyu/README_EN.md",
     "RunBlog.bat",
     "新建 Text Document.txt",
