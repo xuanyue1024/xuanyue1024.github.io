@@ -1,2 +1,2 @@
 start http://localhost:4000/
-hexo s
+hexo clean && hexo g && hexo s
