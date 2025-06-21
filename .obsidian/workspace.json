@@ -170,10 +170,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a64d67fee4df90a",
+  "active": "8394f9bfc77a11e7",
   "lastOpenFiles": [
-    "public/20250610/HTTPS加密原理讲解/index.html",
     "source/_posts/HTTPS加密原理讲解",
+    "source/_posts/HTTPS加密原理讲解/IMG-HTTPS加密原理讲解-20250621215556131.png",
+    "public/20250610/HTTPS加密原理讲解/index.html",
     "source/_posts/HTTPS加密原理讲解/IMG-HTTPS加密原理讲解-20250621214901790.png",
     "source/_posts/assets/source/_posts/HTTPS加密原理讲解",
     "source/_posts/assets/source/_posts",
@@ -187,7 +188,6 @@
     "db.json",
     "public/js/search/local-search.js",
     "public/js/services/weibo.js",
-    "public/js/search/algolia-search.js",
     "source/_posts/HTTPS加密原理讲解.md",
     "source/_posts/HTTPS加密原理.md",
     "node_modules/hexo-abbrlink/node_modules/hexo-fs/README.md",
@@ -214,7 +214,6 @@
     "HOME.md",
     "themes/anzhiyu/source/img/siteicon/apple-icon-180.png",
     "themes/anzhiyu/source/img/siteicon/manifest-icon-192.maskable.png",
-    "themes/anzhiyu/source/img/siteicon/manifest-icon-512.maskable.png",
     "().md",
     "themes/butterfly4.3.1/_config.yml.md",
     "ob_template/默认.md"
