@@ -1,5 +1,6 @@
 ---
 abbrlink: '0'
+title: obsidian插件
 ---
 
 | 序号  | 插件名称                  | 介绍                                   | 其它                                                                                                                  |
@@ -29,5 +30,4 @@ abbrlink: '0'
 | 23  | Image toolkit         | 查看图片                                 |                                                                                                                     |
 | 24  | Text Generator        | AI生成插件                               | [使用Text Generator插件打造你的Obsidian AI - 少数派](https://sspai.com/post/86682)                                             |
 | 25  | mermaid-tools         | mermaid示例图表                          |                                                                                                                     |
-
 
