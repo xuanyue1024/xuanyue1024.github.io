@@ -1,0 +1,16 @@
+comments:
+  type: giscus
+  giscus:
+    enable: true
+    repo: xuanyue1024/blog-comment-system
+    repo_id: R_kgDOO_Zruw
+    category: Announcements
+    category_id: DIC_kwDOO_Zru84Crzd5
+    mapping: pathname
+    strict: 0
+    reactions_enabled: 1
+    emit_metadata: 0
+    input_position: bottom
+    theme: preferred_color_scheme
+    lang: zh-CN
+    loading: lazy

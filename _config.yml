@@ -106,19 +106,3 @@ deploy:
   branch: main
 
 
-giscus:
-  enable: true
-  repo: xuanyue1024/blog-comment-system # Github repository name
-  repo_id: R_kgDOO_Zruw # Github repository id
-  category: Announcements # Github discussion category
-  category_id: DIC_kwDOO_Zru84Crzd5 # Github discussion category id
-  # Available values: pathname | url | title | og:title
-  mapping: pathname
-  reactions_enabled: 1
-  emit_metadata: 0
-  theme: preferred_color_scheme
-  # Available values: en | zh-C
-  lang: zh-CN
-  # Available value: anonymous
-  crossorigin: anonymous
-
