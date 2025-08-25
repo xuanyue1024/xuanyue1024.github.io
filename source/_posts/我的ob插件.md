@@ -1,6 +1,6 @@
 ---
-abbrlink: '0'
-title: obsidian插件
+title: 我的ob插件
+abbrlink: b222956a
 ---
 
 | 序号  | 插件名称                  | 介绍                                   | 其它                                                                                                                  |

@@ -4,8 +4,10 @@ tags:
   - JavaWeb
   - 分布式
   - 面试
-date: 2025-08-16
-time: 00:12:40
+time: '00:12:40'
+title: Springboot使用AOP结合Redis+Lua脚本分布式限流
+abbrlink: 2e06b5c8
+date: 2025-08-16 00:00:00
 ---
 ### 1.定义一个限流注解，方便AOP调用
 ```Java
