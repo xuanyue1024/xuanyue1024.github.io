@@ -1,4 +1,4 @@
-name: Deploy Hexo to GitHub Pages
+name: 发布博客到github-pages和vercel
 
 on:
   push:
@@ -67,6 +67,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'   # 跟 build 一致
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
         with:
