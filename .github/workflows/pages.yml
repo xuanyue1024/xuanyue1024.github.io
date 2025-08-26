@@ -1,40 +1,47 @@
-name: Pages
+name: Deploy Hexo to GitHub Pages
 
 on:
   push:
     branches:
-      - main # default branch
+      - main  # 监听 main 分支
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          # If your repository depends on submodule, please see: https://github.com/actions/checkout
-          submodules: recursive
-      - name: Use Node.js v18.20.5
+      # 1. 检出代码
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. 使用 Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
-          # Ref: https://github.com/actions/setup-node#supported-version-syntax
-          node-version: "v18.20.5"
-      - name: Cache NPM dependencies
+          node-version: '18'
+
+      # 3. 缓存 node_modules 提升构建速度
+      - name: Cache dependencies
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: ${{ runner.OS }}-npm-cache
+          key: ${{ runner.os }}-node-${{ hashFiles('package-lock.json') }}
           restore-keys: |
-            ${{ runner.OS }}-npm-cache
+            ${{ runner.os }}-node-
+
+      # 4. 安装依赖
       - name: Install Dependencies
         run: npm install
-      - name: Build
-        run: npm run build
-      - name: Upload Pages artifact
+
+      # 5. 构建 Hexo（生成 public）
+      - name: Build Hexo
+        run: npx hexo generate
+
+      # 6. 上传 public 文件夹（Hexo 生成的站点）
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+
   deploy:
     needs: build
     permissions:
