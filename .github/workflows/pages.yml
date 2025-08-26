@@ -71,6 +71,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'   # 跟 build 一致
+      - name: Ensure npx is available
+        run: npm install -g npx
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
         with:
