@@ -1,3 +1,5 @@
+style:
+  prefers_theme: auto
 comments:
   service: giscus
   # giscus
@@ -18,6 +20,29 @@ comments:
     data-loading: lazy
     crossorigin: anonymous
 footer:
+  social:
+    github:
+      title: Github
+      icon: '<i class="fa-solid fa-github fa-brands fa-bounce"></i>'
+      url: https://github.com/xuanyue1024
+    music:
+      title: Gitee
+      icon: '<i class="fa-solid fa-git-alt fa-brands fa-bounce"></i>'
+      url: https://gitee.com/xuanyue03
+    unsplash:
+      title: CSDN
+      icon: '<i class="fa-solid fa-blog fa-brands fa-bounce"></i>'
+      url: https://blog.csdn.net/weixin_45564332
+    comments:
+      title: 哔哩哔哩
+      icon: '<i class="fa-solid fa-bilibili fa-brands fa-bounce"></i>'
+      url: https://space.bilibili.com/477155658
+
+inject:
+  head:
+    - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+      
   content: | # 支持 Markdown 格式
     <center>
     <span>
