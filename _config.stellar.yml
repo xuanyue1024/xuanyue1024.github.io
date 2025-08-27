@@ -1,5 +1,9 @@
 style:
   prefers_theme: auto
+  font-family:
+        logo: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'
+        body: '"LXGW WenKai Screen", system-ui, "Microsoft Yahei", "Segoe UI", Arial, sans-serif'
+        code: 'JetBrains Mono NL, Menlo, Monaco, Consolas, system-ui, monospace, sans-serif'
 comments:
   service: giscus
   # giscus
@@ -22,6 +26,32 @@ comments:
 inject:
   head:
     - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    - <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/lxgwwenkaiscreen.css">
+
+article:
+  # 文章推荐
+  # npm i hexo-related-popular-posts
+  # related_posts:
+  #   enable: true
+  #   title: 您可能感兴趣的文章
+  #分享链接
+  share: [wechat, weibo, email, link]
+# 备用站点
+# 一旦设置源站地址，非源站地址将不会被SEO收录，并且访问时弹出提示
+# 如果访问地址不在备用站主机列表，则警告信息为非法克隆
+canonical:
+  originalHost: yanghc.dev
+  officialHosts: # 官方主机列表，每行一个，例如 xaoxuu.vercel.app
+    - yanghc.codes
+    - localhost
+# 站点主结构树
+site_tree:
+  # -- 列表类页面 -- #
+  # 主页配置
+  home:
+    leftbar: [recent, ghuser]
+    rightbar: welcome
+
 footer:
   social:
     github:
