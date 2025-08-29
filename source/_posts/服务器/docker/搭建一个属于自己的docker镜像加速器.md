@@ -7,6 +7,8 @@ time: '00:24:19'
 categories:
   - 服务器
   - docker
+title: 搭建一个属于自己的docker镜像加速器
+abbrlink: 4a585e53
 date: 2025-01-30 00:00:00
 ---
 转载至：

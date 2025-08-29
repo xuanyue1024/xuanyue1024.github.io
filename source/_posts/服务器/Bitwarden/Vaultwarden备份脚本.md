@@ -3,10 +3,11 @@ author: 竹林听雨
 tags:
   - Bitwarden
   - Vaultwarden
-time: 84495
 categories:
   - 服务器
   - Bitwarden
+title: Vaultwarden备份脚本
+abbrlink: 4d6390f3
 date: 2025-02-20 00:00:00
 ---
 # 打包备份版本

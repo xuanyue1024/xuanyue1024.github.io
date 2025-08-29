@@ -3,11 +3,12 @@ author: 竹林听雨
 tags:
   - Bitwarden
   - Vaultwarden
-title: Bitwarden
+title: Bitwarden使用备份
 published: 'true'
 categories:
   - 服务器
   - Bitwarden
+abbrlink: 29d75657
 date: 2025-03-02 00:53:21
 updated: 2025-08-30 00:53:21
 ---

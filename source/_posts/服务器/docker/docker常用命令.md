@@ -7,6 +7,8 @@ author: 竹林听雨
 categories:
   - 服务器
   - docker
+title: docker常用命令
+abbrlink: 749ad7d8
 date: 2024-05-26 00:00:00
 ---
 Docker 是一个开源的平台，旨在使应用程序的开发、部署和运行更轻松。Docker 使用容器这一轻量级的虚拟化技术，使应用程序及其所有依赖项都可以打包到一个标准化的单元中。

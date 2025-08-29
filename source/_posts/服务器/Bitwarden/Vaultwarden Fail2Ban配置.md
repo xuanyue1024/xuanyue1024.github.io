@@ -4,15 +4,16 @@ tags:
   - Fail2Ban
   - Vaultwarden
   - 转载
-title: Fail2Ban配置
+title: Vaultwarden Fail2Ban配置
 published: 'true'
 categories:
   - 服务器
   - Bitwarden
+abbrlink: 1777f4d4
 date: 2025-03-02 00:52:05
 updated: 2025-08-30 00:56:05
 ---
-[1.强化指南 | Vaultwarden Wiki 中文版](https://rs.ppgg.in/configuration/security/hardening-guide)
+[1.强化指南 |  Wiki 中文版](https://rs.ppgg.in/configuration/security/hardening-guide)
 # 官方原版
 
 对应的[官方页面地址](https://github.com/dani-garcia/vaultwarden/wiki/Fail2Ban-Setup)

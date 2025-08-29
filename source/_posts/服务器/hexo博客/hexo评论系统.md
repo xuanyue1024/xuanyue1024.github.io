@@ -6,6 +6,8 @@ time: '00:34:58'
 categories:
   - 服务器
   - hexo博客
+title: hexo评论系统
+abbrlink: 342fb4b
 date: 2025-02-01 00:00:00
 ---
 <script src="https://giscus.app/client.js"

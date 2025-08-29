@@ -9,6 +9,8 @@ time: 63442
 categories:
   - 服务器
   - docker
+title: docker部署mysql并修改其占用内存大小
+abbrlink: '80661e20'
 date: 2025-03-05 00:00:00
 ---
 

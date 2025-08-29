@@ -6,6 +6,8 @@ author: 竹林听雨
 categories:
   - 服务器
   - Bitwarden
+title: Vaultwarden环境变量
+abbrlink: 74786dc6
 date: 2025-02-22 00:00:00
 ---
 ```config

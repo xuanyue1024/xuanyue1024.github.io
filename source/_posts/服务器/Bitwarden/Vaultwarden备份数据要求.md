@@ -8,6 +8,8 @@ time: '00:36:51'
 categories:
   - 服务器
   - Bitwarden
+title: Vaultwarden备份数据要求
+abbrlink: 5839238a
 date: 2025-02-21 00:00:00
 ---
 翻译而来
