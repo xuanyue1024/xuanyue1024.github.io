@@ -10,6 +10,7 @@ title: hexo评论系统
 abbrlink: 342fb4b
 date: 2025-02-01 00:00:00
 ---
+```html
 <script src="https://giscus.app/client.js"
         data-repo="xuanyue1024/xxxxx"
         data-repo-id="xxxxxx"
@@ -26,6 +27,7 @@ date: 2025-02-01 00:00:00
         crossorigin="anonymous"
         async>
 </script>
+```
 
 [Hexo 评论系统（Giscus） | 阿基米东 Freedom Blog](https://luhuadong.com/hexo/hexo-comments-giscus)
 

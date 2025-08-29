@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/服务器/Bitwarden/Vaultwarden Fail2Ban配置.md",
+                "file": "source/_posts/服务器/hexo博客/hexo评论系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vaultwarden Fail2Ban配置"
+              "title": "hexo评论系统"
             }
           }
         ]
@@ -173,6 +173,7 @@
   },
   "active": "273e3926a060e6a9",
   "lastOpenFiles": [
+    "source/_posts/服务器/Bitwarden/Vaultwarden Fail2Ban配置.md",
     "public/categories/服务器/page/2/index.html",
     "public/categories/服务器/page/2",
     "public/categories/服务器/page",
@@ -183,7 +184,6 @@
     "public/categories/服务器/docker/index.html",
     "public/categories/服务器/docker",
     "public/categories/服务器/Bitwarden/index.html",
-    "public/categories/服务器/Bitwarden",
     "source/_posts/服务器/Bitwarden/Bitwarden使用备份.md",
     "source/_posts/服务器/docker/docker开启TLS 双向认证远程访问.md",
     "source/_posts/Springboot使用AOP结合Redis+Lua脚本分布式限流.md",
@@ -199,7 +199,6 @@
     "source/_posts/服务器/Bitwarden/Vaultwarden环境变量.md",
     "source/_posts/服务器/Bitwarden/Vaultwarden备份数据要求.md",
     "source/_posts/服务器/Bitwarden/Vaultwarden备份脚本.md",
-    "source/_posts/服务器/Bitwarden/Vaultwarden Fail2Ban配置.md",
     "ob_template/增加title.md",
     "source/_posts/hello-world.md",
     "source/_posts/我的ob插件.md",
