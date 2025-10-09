@@ -9,6 +9,7 @@ sticky: '99'
 categories:
   - 编程
   - Java
+abbrlink: 443887f3
 date: 2025-10-09 22:13:55
 updated: 2025-10-09 22:13:55
 ---
@@ -88,7 +89,7 @@ ThreadLocal.ThreadLocalMap threadLocals = null;
 
 现在我们来看一下 ThreadLocalMap 的定义：  
 
-![68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353033362e706e67_mianshiya.png](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353033362e706e67_mianshiya.png)  
+![](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353033362e706e67_mianshiya.png)  
 
 重点我已经标出来了，首先可以看到这个 ThreadLocalMap 里面有个 Entry 数组，熟悉 HashMap 的小伙伴可能有点感觉了。  
 
@@ -100,14 +101,14 @@ ThreadLocal.ThreadLocalMap threadLocals = null;
 
 来看下 ThreadLocal 的get 方法，这里就可以得知为什么不同的线程对同一个 ThreadLocal 对象调用 get 方法竟然能得到不同的值了。  
 
-![68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353034362e706e67_mianshiya.png](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353034362e706e67_mianshiya.png)  
+![](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353034362e706e67_mianshiya.png)  
 
 这个中文注释想必很清晰了吧！`ThreadLocal#get `方法首先获取当前线程，然后得到当前线程的 ThreadLocalMap 变量即 threadLocals，然后将自己作为 key 从 ThreadLocalMap 中找到 Entry ，最终返回 Entry 里面的 value 值。  
 
 这里我们再看一下 key 是如何从 ThreadLocalMap 中找到 Entry 的，即`map.getEntry(this)`是如何实现的，其实很简单。  
 
 
-![ue5Sxcvy_image_mianshiya.png](ThreadLocal详解/ue5Sxcvy_image_mianshiya.png)  
+![](ThreadLocal详解/ue5Sxcvy_image_mianshiya.png)  
 
 
 可以看到 ThreadLocalMap 虽然和 HashMap 一样，都是基于数组实现的，但是它们对于 Hash 冲突的解决方法不一样，HashMap 是通过链表(红黑树)法来解决冲突，而 ThreadLocalMap 是通过开放寻址法来解决冲突。  
@@ -115,7 +116,7 @@ ThreadLocal.ThreadLocalMap threadLocals = null;
 听起来好像很高级，其实道理很简单，我们来看一张图就很清晰了。  
 
 
-![68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353130392e706e67_mianshiya.png](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353130392e706e67_mianshiya.png)  
+![](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353130392e706e67_mianshiya.png)  
 
 所以说，如果通过 key 的哈希值得到的下标无法直接命中，则会将下标 +1，即继续往后遍历数组查找 Entry ，直到找到或者返回 null。  
 
@@ -124,7 +125,7 @@ ThreadLocal.ThreadLocalMap threadLocals = null;
 至于代码中的 `expungeStaleEntry` 我们等下再分析，先来看下 `ThreadLocalMap#set` 方法，看看写入的怎样实现的，来看看 hash 冲突的解决方法是否和上面说的一致。  
 
 
-![68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353131392e706e67_mianshiya.png](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353131392e706e67_mianshiya.png)  
+![](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353131392e706e67_mianshiya.png)  
 
 可以看到 set 的逻辑也很清晰，先通过 key 的 hash 值计算出一个数组下标，然后看看这个下标是否被占用了，如果被占了看看是否就是要找的 Entry ，如果是则进行更新，如果不是则下标++，即往后遍历数组，查找下一个位置，找到空位就 new 个 Entry 然后把坑给占用了。  
 
@@ -137,7 +138,7 @@ ThreadLocal.ThreadLocalMap threadLocals = null;
 可能有些小伙伴对 key 的哈希值的来源有点疑惑，所以我再来补充一下 `key.threadLocalHashCode`的分析。  
 
 
-![68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353132382e706e67_mianshiya.png](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353132382e706e67_mianshiya.png)  
+![](ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353132382e706e67_mianshiya.png)  
 
 可以看到 `key.threadLocalHashCode` 其实就是调用 `nextHashCode` 进行一个原子类的累加。  
 
