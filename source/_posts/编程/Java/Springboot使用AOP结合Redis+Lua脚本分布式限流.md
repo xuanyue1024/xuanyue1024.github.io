@@ -7,6 +7,10 @@ tags:
 time: '00:12:40'
 title: Springboot使用AOP结合Redis+Lua脚本分布式限流
 abbrlink: 2e06b5c8
+sticky: '100'
+categories:
+  - 编程
+  - Java
 date: 2025-08-16 00:00:00
 ---
 ### 1.定义一个限流注解，方便AOP调用
