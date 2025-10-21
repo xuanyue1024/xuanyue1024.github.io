@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "./attachments",
   "userIgnoreFilters": [
     "node_modules/",
     "public/",

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d0c0ae003f0bf816",
+        "id": "90c27a7e56aab0d5",
         "type": "tabs",
         "children": [
           {
-            "id": "6338f21315793481",
+            "id": "63f2efa8a276afcb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "source/_posts/编程/算法/498回文日期解题思路及代码.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "498回文日期解题思路及代码"
+              "title": "新标签页"
             }
           }
         ]
@@ -171,8 +167,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6338f21315793481",
+  "active": "63f2efa8a276afcb",
   "lastOpenFiles": [
+    "public/posts/b222956a/ows11如何正确启动远程桌面/fd47680462e7452c9e9b5917e09cbba7.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/dc9f5ff1e287404aa0705eb0cb7499d4.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/dc02ddc296e9456d9a9f90ec7caca2b5.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/b627169f240c4150a622fabadeb850ea.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/c3144232244c4b3d950bb1f5130614eb.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/a8b08b7f2c76434c92f91b3d1b81b0ec.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/80f3e8866720444ebdf9affce970ff52.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/6615c2979a7d4b72994b223686e0acf0.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/5e68f55707fa4d42bc65399663fece12.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/289010b936bc4720906fa84bfe0c5d70.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面/225dcd8aca5e40eba63ba053392b60da.png",
+    "public/posts/b222956a/ows11如何正确启动远程桌面",
+    "source/_posts/编程/Java/ThreadLocal详解.md",
+    "source/_posts/生活/Windows11如何正确启动远程桌面.md",
+    "source/_posts/生活/Windows11如何正确启动远程桌面",
+    "source/_posts/编程/Java/基础/Java简单代码验证三门问题.md",
+    "source/_posts/编程/算法/498回文日期解题思路及代码.md",
     "public/categories/编程/Java/基础/index.html",
     "public/categories/编程/Java/基础",
     "public/categories/编程/算法/index.html",
@@ -181,12 +194,6 @@
     "public/categories/生活",
     "vercel.json",
     "新建 Text Document.txt",
-    "public/tags/蓝桥杯/index.html",
-    "public/tags/蓝桥杯",
-    "public/tags/算法/index.html",
-    "source/_posts/编程/Java/基础/Java简单代码验证三门问题.md",
-    "source/_posts/生活/Windows11如何正确启动远程桌面.md",
-    "source/_posts/编程/算法/498回文日期解题思路及代码.md",
     "source/_posts/编程/算法/蓝桥杯-498回文日期解题思路及代码-CSDN博客.md",
     "HOME.md",
     "2025-10-21.md",
@@ -195,19 +202,8 @@
     "source/_posts/编程/Java/HashMap底层讲解.md",
     "source/_posts/编程/Java/手搓布隆过滤器.md",
     "source/_posts/编程/MySQL/数据库事务undo-log与redo-log区别.md",
-    "public/posts/b222956a/L/数据库事务undo-log与redo-log区别/PixPin_2025-09-04_23-56-36.jpg",
-    "public/posts/b222956a/ThreadLocal详解/PixPin_2025-10-09_20-54-36.jpg",
-    "public/posts/b222956a/ThreadLocal详解/ue5Sxcvy_image_mianshiya.png",
-    "public/posts/b222956a/ThreadLocal详解/PixPin_2025-10-09_20-43-30.jpg",
-    "public/posts/b222956a/ThreadLocal详解/PixPin_2025-10-09_20-32-08.jpg",
-    "public/posts/b222956a/ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353131392e706e67_mianshiya.png",
-    "public/posts/b222956a/ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353132382e706e67_mianshiya.png",
-    "public/posts/b222956a/ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353130392e706e67_mianshiya.png",
-    "public/posts/b222956a/ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353034362e706e67_mianshiya.png",
-    "public/posts/b222956a/ThreadLocal详解/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353033362e706e67_mianshiya.png",
     "source/_posts/网络/HTTPS加密原理讲解.md",
     "source/_posts/编程/MySQL/MySQL 大表拆分.md",
-    "source/_posts/编程/Java/ThreadLocal详解.md",
     "source/_posts/编程/Java/Spring Bean生命周期.md",
     "source/_posts/服务器/docker/docker开启TLS 双向认证远程访问.md",
     "source/_posts/服务器/docker/docker常用命令.md",
