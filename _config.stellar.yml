@@ -65,7 +65,7 @@ footer:
       url: https://gitee.com/xuanyue03
     unsplash:
       title: CSDN
-      icon: '<i class="fa-solid fa-ghost fa-brands fa-bounce"></i>'
+      icon: '<i class="fa-solid fa-droplet fa-brands fa-bounce"></i>'
       url: https://blog.csdn.net/weixin_45564332
     comments:
       title: 哔哩哔哩
