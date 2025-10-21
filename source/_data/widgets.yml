@@ -3,9 +3,10 @@ welcome:
   layout: markdown
   title: 🎉欢迎😉
   content: |
-    本站托管于Vercel, 加载缓慢请耐心等待，欢迎大家畅所欲言。<br>
+    本站托管于 Vercel, 加载缓慢请耐心等待，欢迎大家畅所欲言。<br>
     主站：<a href="https://www.yanghc.dev">www.yanghc.dev</a><br>
-    备用站点：<a href="https://yanghc.codes">yanghc.codes</a><br>
+    备用域名：<a href="https://www.yanghc.cn">www.yanghc.dev</a><br>
+    备用站点：<a href="https://www.yanghc.codes">www.yanghc.codes</a>(托管于 GitHub Pages)<br>
     <hr style="border: 1px solid black; background-color: black;">
     <span id="jinrishici-sentence"></span>
     <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>

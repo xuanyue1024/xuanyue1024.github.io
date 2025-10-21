@@ -44,6 +44,7 @@ canonical:
   officialHosts: # 官方主机列表，每行一个，例如 xaoxuu.vercel.app
     - yanghc.codes
     - localhost
+    - yanghc.cn
 # 站点主结构树
 site_tree:
   # -- 列表类页面 -- #
