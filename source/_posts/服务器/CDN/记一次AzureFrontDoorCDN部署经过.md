@@ -10,6 +10,7 @@ sticky: '101'
 categories:
   - 服务器
   - CDN
+abbrlink: c2317431
 date: 2026-01-19 23:01:38
 updated: 2026-01-19 23:01:38
 ---
@@ -27,7 +28,8 @@ updated: 2026-01-19 23:01:38
 - 不确定 Nginx 如何配置回源
 
 ## 配置步骤
-![](记一次AzureFrontDoorCDN部署经过/IMG-记一次AzureFrontDoorCDN部署经过-20260119230336020.svg)
+
+![a66](记一次AzureFrontDoorCDN部署经过/cdn.svg)
 
 ### 步骤 1：在 Cloudflare 配置 DNS
 

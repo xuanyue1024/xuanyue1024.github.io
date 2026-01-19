@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HOME.md",
+                "file": "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "HOME 的出链列表"
+              "title": "记一次AzureFrontDoorCDN部署经过 的出链列表"
             }
           },
           {
@@ -142,16 +142,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HOME.md",
+                "file": "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HOME 的大纲"
+              "title": "记一次AzureFrontDoorCDN部署经过 的大纲"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,6 +173,12 @@
   },
   "active": "1cd9429183e0a975",
   "lastOpenFiles": [
+    "public/posts/b222956a/记一次AzureFrontDoorCDN部署经过/cdn.svg",
+    "public/categories/服务器/CDN/index.html",
+    "public/categories/服务器/CDN",
+    "source/_posts/生活/Windows11如何正确启动远程桌面.md",
+    "source/_posts/服务器/服务器防火墙相关命令.md",
+    "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
     "public/posts/b222956a/记一次AzureFrontDoorCDN部署经过/IMG-记一次AzureFrontDoorCDN部署经过-20260119230336020.svg",
     "public/posts/b222956a/记一次AzureFrontDoorCDN部署经过",
     "public/categories/编程/page/2/index.html",
@@ -181,13 +188,9 @@
     "public/categories/编程/面试",
     "public/tags/CDN/index.html",
     "public/tags/CDN",
-    "public/archives/2026/01/index.html",
-    "public/archives/2026/index.html",
     "source/_posts/编程/Java/Springboot使用AOP结合Redis+Lua脚本分布式限流.md",
     "source/_posts/编程/Java/手搓布隆过滤器.md",
-    "source/_posts/生活/Windows11如何正确启动远程桌面.md",
-    "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
-    "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过/IMG-记一次AzureFrontDoorCDN部署经过-20260119230336020.svg",
+    "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过/cdn.svg",
     "source/_posts/编程/Java/基础/Java 中 final 关键字的核心知识点总结.md",
     "source/_posts/编程/Java/基础/Java简单代码验证三门问题.md",
     "source/_posts/编程/Java/基础/Java线程安全与匿名内部类.md",
@@ -201,7 +204,6 @@
     "public/posts/b222956a/ows11如何正确启动远程桌面/dc9f5ff1e287404aa0705eb0cb7499d4.png",
     "public/posts/b222956a/ows11如何正确启动远程桌面/dc02ddc296e9456d9a9f90ec7caca2b5.png",
     "public/posts/b222956a/ows11如何正确启动远程桌面/b627169f240c4150a622fabadeb850ea.png",
-    "public/posts/b222956a/ows11如何正确启动远程桌面/c3144232244c4b3d950bb1f5130614eb.png",
     "source/_posts/编程/Java/ThreadLocal详解.md",
     "source/_posts/编程/算法/498回文日期解题思路及代码.md",
     "source/_posts/编程/算法/蓝桥杯-498回文日期解题思路及代码-CSDN博客.md",
@@ -216,7 +218,6 @@
     "source/_posts/服务器/docker/docker开启TLS 双向认证远程访问.md",
     "source/_posts/服务器/docker/docker常用命令.md",
     "source/_posts/服务器/docker/docker自建镜像加速.md",
-    "source/_posts/服务器/服务器防火墙相关命令.md",
     "source/_posts/服务器/Bitwarden/Bitwarden使用备份.md",
     "ob_template/默认.md",
     "source/_posts/编程/未命名.canvas"
