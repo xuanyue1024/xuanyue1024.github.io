@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "90c27a7e56aab0d5",
+        "id": "bb3dd50b758059f7",
         "type": "tabs",
         "children": [
           {
-            "id": "63f2efa8a276afcb",
+            "id": "1cd9429183e0a975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/编程/Java/基础/Java 中 final 关键字的核心知识点总结.md",
+                "file": "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java 中 final 关键字的核心知识点总结"
+              "title": "记一次AzureFrontDoorCDN部署经过"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HOME.md",
+                "file": "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "HOME 的反向链接列表"
+              "title": "记一次AzureFrontDoorCDN部署经过 的反向链接列表"
             }
           },
           {
@@ -155,12 +155,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:创建新数据库": false,
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -171,22 +170,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "63f2efa8a276afcb",
+  "active": "1cd9429183e0a975",
   "lastOpenFiles": [
+    "public/posts/b222956a/记一次AzureFrontDoorCDN部署经过/IMG-记一次AzureFrontDoorCDN部署经过-20260119230336020.svg",
+    "public/posts/b222956a/记一次AzureFrontDoorCDN部署经过",
+    "public/categories/编程/page/2/index.html",
+    "public/categories/编程/page/2",
+    "public/categories/编程/page",
+    "public/categories/编程/面试/index.html",
+    "public/categories/编程/面试",
+    "public/tags/CDN/index.html",
+    "public/tags/CDN",
+    "public/archives/2026/01/index.html",
+    "public/archives/2026/index.html",
+    "source/_posts/编程/Java/Springboot使用AOP结合Redis+Lua脚本分布式限流.md",
+    "source/_posts/编程/Java/手搓布隆过滤器.md",
+    "source/_posts/生活/Windows11如何正确启动远程桌面.md",
+    "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过.md",
+    "source/_posts/服务器/CDN/记一次AzureFrontDoorCDN部署经过/IMG-记一次AzureFrontDoorCDN部署经过-20260119230336020.svg",
+    "source/_posts/编程/Java/基础/Java 中 final 关键字的核心知识点总结.md",
     "source/_posts/编程/Java/基础/Java简单代码验证三门问题.md",
     "source/_posts/编程/Java/基础/Java线程安全与匿名内部类.md",
-    "source/_posts/编程/Java/基础/Java 中 final 关键字的核心知识点总结.md",
     "source/_posts/编程/面试/面试题01.md",
-    "public/tags/匿名内部类/index.html",
-    "public/tags/匿名内部类",
-    "public/tags/final/index.html",
-    "public/tags/final",
-    "public/tags/合集/index.html",
-    "public/tags/合集",
-    "public/tags/面试题/index.html",
-    "public/tags/面试题",
-    "public/archives/2025/11/index.html",
-    "public/archives/2025/11",
     "source/_posts/编程/Java/基础/面试题01.md",
     "public/posts/443887f3/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f79657373696d6964612f63646e5f696d6167652f696d672f32303232303132333136353033362e706e67_mianshiya.png",
     "public/posts/a800e976/dc02ddc296e9456d9a9f90ec7caca2b5.png",
@@ -197,17 +202,13 @@
     "public/posts/b222956a/ows11如何正确启动远程桌面/dc02ddc296e9456d9a9f90ec7caca2b5.png",
     "public/posts/b222956a/ows11如何正确启动远程桌面/b627169f240c4150a622fabadeb850ea.png",
     "public/posts/b222956a/ows11如何正确启动远程桌面/c3144232244c4b3d950bb1f5130614eb.png",
-    "public/posts/b222956a/ows11如何正确启动远程桌面/a8b08b7f2c76434c92f91b3d1b81b0ec.png",
     "source/_posts/编程/Java/ThreadLocal详解.md",
-    "source/_posts/生活/Windows11如何正确启动远程桌面.md",
     "source/_posts/编程/算法/498回文日期解题思路及代码.md",
     "source/_posts/编程/算法/蓝桥杯-498回文日期解题思路及代码-CSDN博客.md",
     "HOME.md",
     "2025-10-21.md",
     "未命名.canvas",
-    "source/_posts/编程/Java/Springboot使用AOP结合Redis+Lua脚本分布式限流.md",
     "source/_posts/编程/Java/HashMap底层讲解.md",
-    "source/_posts/编程/Java/手搓布隆过滤器.md",
     "source/_posts/编程/MySQL/数据库事务undo-log与redo-log区别.md",
     "source/_posts/网络/HTTPS加密原理讲解.md",
     "source/_posts/编程/MySQL/MySQL 大表拆分.md",
@@ -218,7 +219,6 @@
     "source/_posts/服务器/服务器防火墙相关命令.md",
     "source/_posts/服务器/Bitwarden/Bitwarden使用备份.md",
     "ob_template/默认.md",
-    "source/_posts/编程/未命名.canvas",
-    "source/_posts/服务器/docker/搭建一个属于自己的docker镜像加速器.md"
+    "source/_posts/编程/未命名.canvas"
   ]
 }
